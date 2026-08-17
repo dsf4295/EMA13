@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # --- 設定項目 ---
-API_KEY = "ここにTwelve_DataのAPIキーを貼り付け"
+API_KEY = "330042e9b1c747e597503c3016a5036b"
 SYMBOL = "USD/JPY"             # 監視したい通貨ペア（USD/JPYなど）
 INTERVAL = "1min"              # スキャルピング用の足
 NTFY_TOPIC = "my-fx-scalping-777" # Step1で決めたトピック名
